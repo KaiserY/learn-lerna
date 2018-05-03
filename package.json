@@ -1,0 +1,23 @@
+{
+  "name": "learn-lerna",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KaiserY/learn-lerna.git",
+  "author": "KaiserY <yueyang.fanqiang@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev node packages/learn-lerna-dev-server/index.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "lerna": "^2.11.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  }
+}

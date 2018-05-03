@@ -1,0 +1,12 @@
+{
+  "name": "learn-lerna-dev-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "webpack": "^4.6.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-hot-middleware": "^2.22.1"
+  }
+}

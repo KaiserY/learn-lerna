@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "paths": {
+      "learn-lerna-common": [
+        "../learn-lerna-common/src"
+      ],
+    },
+  },
+}

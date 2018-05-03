@@ -1,0 +1,33 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    "quotemark": [true, "single"],
+    "no-var-requires": false,
+    "no-var-keyword": false,
+    "prefer-const": false,
+    "object-literal-sort-keys": false,
+    "no-unused-expression": false,
+    "triple-equals": false,
+    "trailing-comma": [true, {
+      "multiline": {
+        "objects": "always",
+        "arrays": "never",
+        "functions": "always",
+        "typeLiterals": "always",
+        "imports": "always",
+        "exports": "always"
+      },
+      "singleline": "never"
+    }],
+    "prefer-for-of": false,
+    "object-literal-shorthand": false,
+    "max-line-length": [false, 0],
+    "no-string-literal": false,
+    "no-empty": false,
+    "max-classes-per-file": [false, 0],
+    "object-literal-key-quotes": [false],
+    "member-access": false,
+    "jsx-boolean-value": false,
+    "no-submodule-imports": false
+  }
+}
